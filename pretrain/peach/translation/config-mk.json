@@ -1,0 +1,6 @@
+{
+    "number of lines": 1000,
+    "append first": false,
+    "language": "mk",
+    "dictionaries path": "./PEACH/pretrain/peach/translation/dicts/"
+}

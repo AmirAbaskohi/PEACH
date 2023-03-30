@@ -1,0 +1,4 @@
+
+from tensorflow_datasets.translate.EN_Denoising import EnDenoising
+from tensorflow_datasets.translate.FR_Denoising import FrDenoising
+from tensorflow_datasets.translate.DE_Denoising import DeDenoising

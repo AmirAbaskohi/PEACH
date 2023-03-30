@@ -1,0 +1,7 @@
+{
+    "lambda": 3.5,
+    "random token percentage": 0.35,
+    "number of lines": 1000,
+    "input language": "en",
+    "append first": false
+}

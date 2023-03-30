@@ -1,0 +1,7 @@
+{
+    "max span length": 9,
+    "geometric p": 0.142,
+    "random token percentage": 0.15,
+    "number of lines": 1000,
+    "append first": false
+}

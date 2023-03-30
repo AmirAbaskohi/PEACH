@@ -1,0 +1,34 @@
+# C++ object and out files
+*.o
+*.O
+*.out
+*.exe
+
+# vscode folder
+.vscode/
+
+# output text
+out.txt
+in.txt
+words.txt
+
+# word-to-word data
+input.txt
+dictionaries.tar.gz
+dictionaries/
+
+# other-configs
+config[1-9].json
+
+# language-outputs
+ru.txt
+fr.txt
+cs.txt
+de.txt
+en.txt
+
+# corpus
+corpus*
+
+# test shells
+test.sh

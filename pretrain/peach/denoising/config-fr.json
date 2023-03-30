@@ -1,0 +1,9 @@
+{
+    "remove std": 0.08709,
+    "remove mean": 0.15208,
+    "percentage of replace": "5-7",
+    "percentage of add": "1-3",
+    "number of lines": 1000,
+    "append first": false,
+    "language": "fr"
+}

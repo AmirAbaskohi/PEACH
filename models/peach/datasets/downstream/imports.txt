@@ -1,0 +1,9 @@
+
+from tensorflow_datasets.translate.WMT14FREN import WMT14FREN
+from tensorflow_datasets.translate.WMT14ENFR import WMT14ENFR
+from tensorflow_datasets.translate.WMT14DEEN import WMT14DEEN
+from tensorflow_datasets.translate.WMT14ENDE import WMT14ENDE
+from tensorflow_datasets.translate.WMT19DEFR import WMT19DEFR
+from tensorflow_datasets.translate.WMT19FRDE import WMT19FRDE
+from tensorflow_datasets.translate.TatoebaMKEN import TatoebaMKEN
+from tensorflow_datasets.translate.TatoebaENMK import TatoebaENMK

@@ -1,0 +1,9 @@
+{
+    "remove std": 0.12,
+    "remove mean": 0.19,
+    "percentage of replace": "10-15",
+    "percentage of add": "5-10",
+    "number of lines": 1000,
+    "append first": false,
+    "language": "mk"
+}
