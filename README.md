@@ -187,3 +187,15 @@ Translation models:
 |checkpoint-500000|en-fr|[download](https://drive.google.com/drive/folders/10aBB6z60nMP1f2nWao_ueWW21XdtgnJL?usp=sharing)|[download](https://drive.google.com/drive/folders/1-EdcXhnh6Wqf_iUXVK0xAF8RyR9sQbDE?usp=sharing)|
 |checkpoint-500000|fr-de|[download](https://drive.google.com/drive/folders/10-kIXYdEoihb1vfJz4TzQDjrUUk0DUfF?usp=sharing)|[download](https://drive.google.com/drive/folders/1-EdcXhnh6Wqf_iUXVK0xAF8RyR9sQbDE?usp=sharing)|
 |checkpoint-500000|fr-en|[download](https://drive.google.com/drive/folders/1-GVFRxieF--4ghirnyI9EFAIak0eRelR?usp=sharing)|[download](https://drive.google.com/drive/folders/1-EdcXhnh6Wqf_iUXVK0xAF8RyR9sQbDE?usp=sharing)|
+
+# Citation
+```
+@misc{salemi2023peach,
+      title={PEACH: Pre-Training Sequence-to-Sequence Multilingual Models for Translation with Semi-Supervised Pseudo-Parallel Document Generation}, 
+      author={Alireza Salemi and Amirhossein Abaskohi and Sara Tavakoli and Yadollah Yaghoobzadeh and Azadeh Shakery},
+      year={2023},
+      eprint={2304.01282},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
