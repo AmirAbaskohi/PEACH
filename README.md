@@ -189,13 +189,21 @@ Translation models:
 |checkpoint-500000|fr-en|[download](https://drive.google.com/drive/folders/1-GVFRxieF--4ghirnyI9EFAIak0eRelR?usp=sharing)|[download](https://drive.google.com/drive/folders/1-EdcXhnh6Wqf_iUXVK0xAF8RyR9sQbDE?usp=sharing)|
 
 # Citation
-```
-@misc{salemi2023peach,
-      title={PEACH: Pre-Training Sequence-to-Sequence Multilingual Models for Translation with Semi-Supervised Pseudo-Parallel Document Generation}, 
-      author={Alireza Salemi and Amirhossein Abaskohi and Sara Tavakoli and Yadollah Yaghoobzadeh and Azadeh Shakery},
-      year={2023},
-      eprint={2304.01282},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+```bibtex
+@inproceedings{salemi-etal-2023-peach,
+    title = "{PEACH}: Pre-Training Sequence-to-Sequence Multilingual Models for Translation with Semi-Supervised Pseudo-Parallel Document Generation",
+    author = "Salemi, Alireza  and
+      Abaskohi, Amirhossein  and
+      Tavakoli, Sara  and
+      Shakery, Azadeh  and
+      Yaghoobzadeh, Yadollah",
+    booktitle = "Proceedings of the The Sixth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2023)",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.loresmt-1.3",
+    pages = "32--46",
+    abstract = "Multilingual pre-training significantly improves many multilingual NLP tasks, including machine translation. Most existing methods are based on some variants of masked language modeling and text-denoising objectives on monolingual data. Multilingual pre-training on monolingual data ignores the availability of parallel data in many language pairs. Also, some other works integrate the available human-generated parallel translation data in their pre-training. This kind of parallel data is definitely helpful, but it is limited even in high-resource language pairs. This paper introduces a novel semi-supervised method, SPDG, that generates high-quality pseudo-parallel data for multilingual pre-training. First, a denoising model is pre-trained on monolingual data to reorder, add, remove, and substitute words, enhancing the pre-training documents{'} quality. Then, we generate different pseudo-translations for each pre-training document using dictionaries for word-by-word translation and applying the pre-trained denoising model. The resulting pseudo-parallel data is then used to pre-train our multilingual sequence-to-sequence model, PEACH. Our experiments show that PEACH outperforms existing approaches used in training mT5 and mBART on various translation tasks, including supervised, zero- and few-shot scenarios. Moreover, PEACH{'}s ability to transfer knowledge between similar languages makes it particularly useful for low-resource languages. Our results demonstrate that with high-quality dictionaries for generating accurate pseudo-parallel, PEACH can be valuable for low-resource languages.",
 }
 ```
